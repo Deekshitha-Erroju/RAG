@@ -17,11 +17,11 @@ async function retrival_of_article(req,res) {
       let results=await Chunk_Model.aggregate([
       {
         $vectorSearch:{
-             index:"rag_vector_index",
+             index:"vector_index",
              path:"embedding",
              queryVector:embedded_query,
              numCandidates:100,
-             limit:5
+             limit:5,
              
         }
       },
@@ -33,9 +33,14 @@ async function retrival_of_article(req,res) {
         score:{
             $meta:"vectorSearchScore"
           }
+        
         }  
        }
       ])
-      let llm_data= await llm_response(query,results)
+
+console.log(results);
+
+      let llm_message= await llm_response(query,results)
+      res.json(llm_message)
 }
 export {retrival_of_article}
