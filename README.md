@@ -123,6 +123,28 @@ Teams could interact with internal documentation and ask:
 Users could build a searchable AI-powered knowledge base from their own documents.
 
 ---
+## 🔄 **The Concept**
+
+At a high level:
+
+
+             YOUR DOCUMENT
+                   │
+                   ▼
+             ┌───────────┐
+             │   RAG     │
+             │  SYSTEM   │
+             └─────┬─────┘
+                   │
+                   ▼
+            ASK A QUESTION
+                   │
+                   ▼
+          RELEVANT INFORMATION
+                   │
+                   ▼
+              AI RESPONSE
+
 💭 Why I Built This
 
 I wanted to understand how modern AI applications go beyond simply sending a prompt to an LLM.
