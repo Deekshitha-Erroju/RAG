@@ -1,10 +1,11 @@
-# 🧠 RAG — Ask Your Documents, Not Just an AI
+# 🧠 RAG — Retrieval-Augmented Generation System
 
-> **Turn your documents into an interactive knowledge source.**
+> A document-aware AI system that retrieves relevant information from uploaded documents and uses it as context to generate accurate, context-aware answers.
 
-A Retrieval-Augmented Generation system designed to let users interact with their own documents through natural-language questions.
-
-Instead of simply asking an AI to answer from its existing knowledge, this project allows information from uploaded documents to become part of the conversation — helping the system provide answers that are more relevant to the user's specific content.
+![RAG](https://img.shields.io/badge/AI-RAG-blue)
+![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-brightgreen)
+![LangChain](https://img.shields.io/badge/LangChain-LLM%20Framework-orange)
 
 ---
 
