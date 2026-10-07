@@ -38,7 +38,7 @@ async function retrival_of_article(req,res) {
        }
       ])
 
-console.log(results);
+
 
       let llm_message= await llm_response(query,results)
       res.json(llm_message)
