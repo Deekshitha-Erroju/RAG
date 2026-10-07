@@ -123,3 +123,12 @@ Teams could interact with internal documentation and ask:
 Users could build a searchable AI-powered knowledge base from their own documents.
 
 ---
+💭 Why I Built This
+
+I wanted to understand how modern AI applications go beyond simply sending a prompt to an LLM.
+
+Building this project gave me the opportunity to explore how documents, information retrieval, and generative AI can work together to create a more useful user experience.
+
+It also helped me understand an important principle in AI application development:
+
+The quality of an AI response depends not only on the model, but also on the information we provide to it.
