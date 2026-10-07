@@ -2,10 +2,12 @@
 
 > A document-aware AI system that retrieves relevant information from uploaded documents and uses it as context to generate accurate, context-aware answers.
 
-![RAG](https://img.shields.io/badge/AI-RAG-blue)
-![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
-![MongoDB](https://img.shields.io/badge/MongoDB-Database-brightgreen)
-![LangChain](https://img.shields.io/badge/LangChain-LLM%20Framework-orange)
+<p align="left">
+  <img src="https://img.shields.io/badge/AI-RAG-blue?style=for-the-badge" height="35">
+  <img src="https://img.shields.io/badge/Node.js-Backend-green?style=for-the-badge&logo=node.js" height="35">
+  <img src="https://img.shields.io/badge/MongoDB-Database-brightgreen?style=for-the-badge&logo=mongodb" height="35">
+  <img src="https://img.shields.io/badge/LangChain-LLM%20Framework-orange?style=for-the-badge" height="35">
+</p>
 
 ---
 
