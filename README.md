@@ -145,7 +145,7 @@ At a high level:
                    ▼
               AI RESPONSE
 
-💭 Why I Built This
+**💭 Why I Built This**
 
 I wanted to understand how modern AI applications go beyond simply sending a prompt to an LLM.
 
@@ -154,3 +154,53 @@ Building this project gave me the opportunity to explore how documents, informat
 It also helped me understand an important principle in AI application development:
 
 The quality of an AI response depends not only on the model, but also on the information we provide to it.
+
+**🧠 What I Learned**
+
+Through this project, I explored:
+
+How Retrieval-Augmented Generation works
+How AI can interact with external knowledge
+How document-based question answering systems are designed
+How semantic information retrieval can improve AI responses
+How to structure a backend project into separate responsibilities
+How different AI components come together to form a complete application
+How to debug and improve an AI pipeline
+**🚧 Current Status**
+
+🟢 Working Prototype
+
+The core document-questioning workflow has been implemented and tested.
+
+The project is still evolving, with several possibilities for improving the user experience and expanding its capabilities.
+
+**🔮 What's Next?**
+
+Some directions I would like to explore:
+
+💬 A dedicated conversational interface
+📚 Support for multiple knowledge sources
+🔖 Source references for generated answers
+👤 User-specific knowledge bases
+📊 Better retrieval evaluation
+⚡ Faster and more efficient responses
+🌐 Deployment as a complete web application
+🎯 The Bigger Picture
+
+This project is more than just a document chatbot.
+
+It explores a broader idea:
+
+What if information could become something you interact with instead of something you simply read?
+
+RAG provides a way to bridge the gap between static information and interactive AI.
+
+The long-term vision is to build systems where users can bring their own knowledge and interact with it naturally.
+
+## 📌 Note
+
+This repository represents a learning and development project focused on exploring Retrieval-Augmented Generation and AI-powered document interaction.
+
+The implementation details are intentionally kept minimal here.
+
+The README focuses on the problem, idea, purpose, and user experience rather than exposing the internal implementation.
