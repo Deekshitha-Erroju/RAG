@@ -146,8 +146,6 @@ At a high level:
                    ▼
               AI RESPONSE
 
-##The core idea is simple:
-Give AI the right information before asking it to give you the right answer.
 💭 Why I Built This
 
 I wanted to understand how modern AI applications go beyond simply sending a prompt to an LLM.
